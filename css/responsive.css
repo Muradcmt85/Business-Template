@@ -1,0 +1,227 @@
+@media (min-width: 320px) and (max-width: 575.98px) { 
+
+.social-icons ul.list-inline {
+	text-align: center !important;
+}
+
+.cssmenu {
+	position: absolute;
+	top: -15px;
+	padding-right: 15px;
+}
+
+#sidebar_menu_icon {
+	display: none;
+}
+
+.social-icons ul {
+	text-align: left !important;
+}
+
+.owl-dots .owl-dot span {
+	margin: 30px 7px !important;
+}	
+
+.hero-one-content h1 {
+		font-size: 40px !important;
+		line-height: 50px !important;
+		margin-top: 130px !important;
+}
+
+.about-social-icon {
+	margin-bottom: 60px;
+}
+
+.about-img {
+	margin-top: 60px;
+}
+
+.about-img img {
+	width: 100%;
+}
+
+.portfolio-content button {
+	margin-bottom: 25px !important;
+}
+
+.video-content h3 {
+	margin-top: 20px;
+}
+
+.team-item {
+	margin-bottom: 25px;
+}
+
+.monthly_tab_title, .annual_tab_title {
+	font-size: 20px;
+}
+
+.pricing-table {
+	margin-bottom: 25px;
+}
+
+.faq-content {
+	padding: 0px 0px;
+}
+
+.brand-item {
+	 padding: 0px; 
+}
+
+.blog-post-content {
+	margin-bottom: 25px;
+}
+
+#contact {
+	padding-top: 0;
+}
+
+.contact-content.rounded h3 {
+	font-size: 26px;
+}
+
+.address-left {
+    border-bottom: 1px solid #fbc105;
+    border-right: 0px;
+    margin-bottom: 20px;
+}
+
+.address-right {
+	margin-top: 20px;
+}
+
+.contact-content {
+	padding: 25px;
+}
+
+.footer-logo {
+	margin-bottom: 25px;
+}
+
+.footer-content a {
+	margin-bottom: 25px;
+}
+
+.align-items-footer {
+	margin: 18px 0;
+}
+
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+.social-icons ul.list-inline {
+	text-align: center !important;
+}
+
+.welcome-text.topbar-info {
+	text-align: center;
+}
+.cssmenu {
+	position: absolute;
+	top: -15px;
+	padding-right: 15px;
+}
+
+.owl-dots .owl-dot span {
+	margin: 30px 7px !important;
+}	
+
+.hero-one-content h1 {
+	font-size: 55px;
+	line-height: 70px;
+	padding-top: 100px;
+}
+
+.about-social-icon {
+	margin-bottom: 60px;
+}
+
+.about-img img {
+	width: 100%;
+}
+
+.about-img {
+	margin-top: 60px;
+}
+
+.portfolio-content button {
+	margin-bottom: 25px !important;
+}
+
+.video-content h3 {
+	margin-top: 20px;
+}
+
+.team-item {
+	margin-bottom: 25px;
+}
+
+.pricing-table {
+	margin-bottom: 25px;
+}
+
+.blog-post-item {
+	margin-bottom: 25px;
+}
+
+#contact {
+	padding-top: 0;
+}
+.address-left {
+    border-bottom: 1px solid #fbc105;
+    border-right: 0px;
+    margin-bottom: 20px;
+}
+
+.address-right {
+	margin-top: 20px;
+}
+.service-content {
+	margin-left: 40px;
+}
+
+.service-content h4 {
+	font-weight: 500;
+	font-size: 15px;
+}
+
+
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.cssmenu {
+	position: absolute;
+	top: -15px;
+	padding-right: 15px;
+}
+.owl-dots .owl-dot span {
+	margin: 30px 7px !important;
+}	
+.about-img img {
+	width: 100%;
+}
+
+.portfolio-content button {
+	margin-bottom: 25px !important;
+}
+
+.address-left {
+	border-right: 0px solid #fbc105;
+	height: 100%;
+}
+
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.header-nav .menu > li > a {
+	padding-left: 6px;
+	padding-right: 6px;
+}
+
+.sidebar-menu img {
+	width: 22px;
+}
+
+ }
+
+@media (min-width: 1200px) {  }

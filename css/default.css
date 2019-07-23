@@ -1,0 +1,356 @@
+
+/*========================*/
+/*  1.Theme default Color CSS
+/*========================*/
+
+/* Primary Color*/
+.header-nav .menu > li > a:hover,
+.header-nav .menu > li > a:focus,
+.project-menu li span:hover,
+.project-menu li.active span,
+a:hover,
+a:focus,
+.primary-color{
+	color: #f5b324;
+}
+
+
+.social-icon li a,
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot span:hover,
+.heading-title:after,
+.heading-title:before,
+.btn-alt:hover,
+.btn-alt:focus,
+.btn-primary,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.primary-bg{
+	background-color: #f5b324 !important;
+}
+
+.card-body,
+.btn-alt,
+.btn-alt:hover,
+.btn-alt:focus,
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+.js-widget-search form input[type="text"],
+.accordion .card-header,
+.btn-light:hover,
+.btn-light:hover{
+	border-color: #f5b325 !important;
+	box-shadow: unset !important;
+}
+
+/*Secondary Color*/
+
+.welcome-text i,
+.breadcrumb-menu li:last-child,
+.secondary-color{
+	color: #f5b324 ;
+}
+
+.btn-dark:hover,
+.btn-secondary,
+.secondary-bg{
+	background-color: #7ed412
+}
+
+.btn-dark{
+	background-color: #0b1b2b;
+}
+
+.about-content blockquote {
+	border-color: #7ed412 ;
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-primary:hover,
+.btn-primary:focus{
+	background-color: #0b1b2b !important;
+}
+ 
+/*========================*/
+/*  1.Theme default CSS
+/*========================*/
+
+/*-- Common Style --*/
+*, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	background-color: #ffffff;
+	line-height: 26px;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	visibility: visible;
+	color: #252525;
+	letter-spacing: .5px
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rubik', sans-serif;
+	margin: 0;
+}
+
+h1 { font-size: 60px; font-weight: 500; line-height: 70px; }
+
+h2 { font-size: 32px; font-weight: 500; line-height: 42px; }
+
+h3 { font-size: 28px; font-weight: 500; line-height: 38px; }
+
+h4 { font-size: 24px; font-weight: 400; line-height: 34px; }
+
+h5 { font-size: 18px; font-weight: 400; line-height: 28px; }
+
+h6 { font-size: 16px; font-weight: normal; line-height: 26px; }
+
+p { margin-bottom: 20px; }
+
+p.lead {line-height: 28px; font-size: 18px;}
+
+h2.font-size32{font-size: 32px;}
+
+.has-color h1,.has-color h2,.has-color h3,.has-color h4,.has-color h5,.has-color h6,
+.has-color{	color: #ffffff; }
+
+/*p:last-child { margin-bottom: 0; }*/
+
+li:last-child { margin-right: 0 !important; padding-right: 0; border-right: 0; }
+
+li:last-child a { margin-right: 0;padding-right: 0; }
+
+ul { list-style-type: none; }
+
+ul.list-inline{	display: block; }
+
+ul.list-inline li{ display: inline-block; }
+
+a, button { color: inherit; display: inline-block; line-height: inherit; text-decoration: none;
+ cursor: pointer; }
+
+/*--- Transition Css ---*/
+
+
+.portfolio-overlay,
+.social-icon,
+.single-service,
+.service-icon,
+.pricing-table,
+.pricing-list li,
+.pricing-tab .pricing-tab-switcher,
+.pricing-tab .pricing-tab-switcher:before,
+.brand-item,
+textarea,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+.js-offcanvas-menu,
+.btn, a, i, button, img, input, span, *:before, *:after {
+	-webkit-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+
+img{ max-width: 100%;  display: block; }
+
+*:focus { outline: none !important; }
+
+a:focus { color: inherit; outline: none; text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+button, input[type="submit"] { cursor: pointer; }
+
+ul { list-style: outside none none; margin: 0; padding: 0; }
+
+
+/*--  Common CSS
+-----------------------------------------*/
+.border {
+  border: 1px solid #eeeeee !important;
+}
+.center-table {z-index: 99; left: 50%; position: absolute; top: 50%; transform: translate(-50%, -50%);z-index: 9 }
+
+section { width: 100%; padding: 100px 0; }
+
+/*====== Background color & Overlay =======*/
+.bg-light { background-color: #f7f9fd  !important; }
+
+.bg-dark{ background-color: #1c192b !important; }
+
+.primary-overlay:after{ position: absolute; opacity: 0;
+	left: 0;top: 0;width: 100%;height: 100%;content: "";background-color: rgba(15,111,213,.75);
+}
+.secondary-overlay:after{ position: absolute; opacity: 0;
+	left: 0;top: 0;width: 100%;height: 100%;content: "";background-color: rgba(233,71,16,.75);
+}
+
+/*====== Btn ====== */
+.btn-dark,
+.btn-primary,
+.btn-secondary{color: #fff !important}
+.btn-alt:focus,
+.btn-alt:hover,
+.btn-primary {
+    color: #fff !important;
+}
+.btn {
+	border: 0 none;
+	font-size: 16px;
+	border-radius: 3px;
+	font-weight: 500;
+	color: inherit;
+	letter-spacing: 1.2px;
+	padding: 12px 36px !important;
+	text-transform: uppercase;
+}
+.btn i{
+	font-size: 18px;
+	margin-left: 10px;
+	margin-right: 0;
+	position: relative;
+	line-height: 0;
+}
+.btn-sm i{
+	font-size: 14px;
+}
+.btn-round{
+	border-radius: 50px;
+}
+.no-border-radius{
+   border-radius: 3px;
+}
+.btn-sm {
+	font-size: 14px;
+	padding: 8px 26px !important;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.btn-lg { font-size: 18px; padding: 16px 50px !important; }
+
+.btn:hover,
+.btn:focus{
+    border: 0 none;
+    box-shadow: none;
+    color: #ffffff;
+}
+.btn-alt:hover,
+.btn-alt:focus,
+.btn-alt {
+  border: 2px solid;
+}
+.btn-light{
+	color: #333;
+	background-color: #fff;
+	border-color: #fff
+}
+/*======= Container Width For Mobile Device =======*/
+
+/*--  Margin & Padding
+-----------------------------------------*/
+.padding-50{ padding: 50px; }
+
+/*-- Margin Top --*/
+.mt-5 { margin-top: 5px; } .mt-10 { margin-top: 10px; } .mt-15 { margin-top: 15px; }
+.mt-20 { margin-top: 20px; } .mt-25 { margin-top: 25px; } .mt-30 { margin-top: 30px; }
+.mt-35 { margin-top: 35px; } .mt-40 { margin-top: 40px; } .mt-45 { margin-top: 45px; }
+.mt-50 { margin-top: 50px; } .mt-55 { margin-top: 55px; } .mt-60 { margin-top: 60px; }
+.mt-65 { margin-top: 65px; } .mt-100 { margin-top: 100px; } .mt-150 { margin-top: 150px; }
+.mt-200 { margin-top: 200px; }
+
+/*-- Margin Bottom --*/
+.mb-5 { margin-bottom: 5px; } .mb-10 { margin-bottom: 10px; } .mb-15 { margin-bottom: 15px; }
+.mb-20 { margin-bottom: 20px; } .mb-25 { margin-bottom: 25px; } .mb-30 { margin-bottom: 30px; }
+.mb-35 { margin-bottom: 35px; } .mb-40 { margin-bottom: 40px; } .mb-45 { margin-bottom: 45px; }
+.mb-50 { margin-bottom: 50px; } .mb-55 { margin-bottom: 55px; } .mb-60 { margin-bottom: 60px; }
+.mb-70 { margin-bottom: 70px; }
+.mb-65 { margin-bottom: 65px; } .mb-80 { margin-bottom: 80px; } .mb-100 { margin-bottom: 100px; }
+.mb-150 { margin-bottom: 150px; } .mb-200 { margin-bottom: 200px; }
+
+/*-- Padding Top --*/
+.pt-5 { padding-top: 5px; } .pt-10 { padding-top: 10px; } .pt-15 { padding-top: 15px; }
+.pt-20 { padding-top: 20px; } .pt-25 { padding-top: 25px; } .pt-30 { padding-top: 30px; }
+.pt-35 { padding-top: 35px; } .pt-40 { padding-top: 40px; } .pt-45 { padding-top: 45px; }
+.pt-30 { padding-top: 30px; } .pt-50 { padding-top: 50px; } .pt-55 { padding-top: 55px; }
+.pt-60 { padding-top: 60px; } .pt-65 { padding-top: 65px; } .pt-70 { padding-top: 70px; }
+.pt-100 { padding-top: 100px; } .pt-150 { padding-top: 150px; } .pt-200 { padding-top: 200px; }
+
+/*-- Padding Bottom --*/
+.pb-5 { padding-bottom: 5px; } .pb-10 { padding-bottom: 10px; } .pb-15 { padding-bottom: 15px; }
+.pb-20 { padding-bottom: 20px; } .pb-25 { padding-bottom: 25px; } .pb-30 { padding-bottom: 30px; }
+.pb-35 { padding-bottom: 35px; } .pb-40 { padding-bottom: 40px; } .pb-45 { padding-bottom: 45px; }
+.pb-50 { padding-bottom: 50px; } .pb-55 { padding-bottom: 55px; } .pb-60 { padding-bottom: 60px; }
+.pb-70 { padding-bottom: 70px; } .pb-100 { padding-bottom: 100px; } .pb-150 { padding-bottom: 150px; }
+.pb-200 { padding-bottom: 200px; }
+
+.p-20{
+	padding: 20px
+}
+
+.padding{  padding: 40px 30px; }
+/*--  Input Placeholder
+-----------------------------------------*/
+input:-moz-placeholder, textarea:-moz-placeholder {
+	opacity: 1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	opacity: 1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+	opacity: 1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+	opacity: 1; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+/*input Field*/
+textarea{
+	height: 150px;
+	padding: 20px;
+	width: 100%;
+	border: 0;
+	color: #9c9c9c;
+	resize: none;
+	background-color: #fff;
+	border: 1px solid #eeeeee;
+}
+
+input[type="submit"]{
+	margin-bottom: 30px;
+	line-height: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+	padding: 0 20px;
+	line-height: 50px;
+	width: 100%;
+	border: 0;
+	margin-bottom: 30px;
+	background: #ffffff;
+	color: #9c9c9c;
+	border: 1px solid #eeeeee;
+}
+
+
+/*--  Overlay CSS
+-----------------------------------------*/
+.color-overlay{ box-shadow: 0 0 0 1000px rgba(117,182,27,.85) inset !important }
+
+.overlay{ box-shadow: 0 0 0 1000px rgba(0,0,0,.65) inset !important }
+ 
+/*-- Color --*/
+
+.overlay-gradient { background: #f85032; background: -webkit-gradient(linear, left top, right top, from(#0056ff), to(#ff0042)); background: -webkit-linear-gradient(left, #0056ff 0%, #ff0042 100%); background: -o-linear-gradient(left, #0056ff 0%, #ff0042 100%); background: linear-gradient(to right, #0056ff 0%, #ff0042 100%); }
